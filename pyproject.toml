@@ -1,0 +1,23 @@
+[build-system]
+requires = ["hatchling >= 1.26"]
+build-backend = "hatchling.build"
+
+[project]
+name = "getvocal"
+version = "0.0.1"
+authors = [
+  { name="The GetVocal AI Team", email="khue@getvocal.ai" },
+]
+description = "GetVocal open-source software"
+readme = "README.md"
+requires-python = ">=3.11"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+license = "MIT"
+license-files = ["LICEN[CS]E*"]
+
+[project.urls]
+Homepage = "https://github.com/getvocal/getvocal"
+Issues = "https://github.com/getvocal/getvocal/issues"
